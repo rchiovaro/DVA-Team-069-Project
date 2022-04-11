@@ -1,0 +1,5 @@
+sportsreference
+openpyxl
+xlrd
+pandas
+scipy
