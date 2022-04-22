@@ -21,7 +21,12 @@ Prior to utilizing this project, users should first install the necessary depend
 The simplest way to install Python and Jupyter Notebook is by installing the [anaconda distribution](https://www.anaconda.com/). For Tableau, users may sign up for their 
 [free trial](https://www.tableau.com/products/desktop/download). If preferred, other installs of these dependencies may be used to simplify the process.
 
-Lastly, users should clone this repo to a local directory for use and explore any and all files inside. Though, the interface is best utilized by opening Workbook_v1.twb in Tableau.
+Lastly, users should clone this repo to a local directory for use and explore any and all files inside. Though, the interface is best utilized by opening Workbook_v1.twb in
+Tableau. These files can be best navigated using the steps listed below.
+	
+    1. Install all required packages to run the code (in the requirements.txt file in the code folder)
+    2. Collect desired data. Using the Data Collection and cleaning, select the year you would like to predict by changing the desired_year variable to the year you want.
+    3. To see Vizualizations, open Interactive Visualizations.twb in Tableau. You will need to set the datasource as the visuals_df.csv and 2020_predicted_ranking.csv located in the data folder.
 
 **Note:** A copy of the python library *sportsreference* has been included for the sake of reproducability only. This library has been slightly modified so that it may work with the
 current version of basketball-reference.com. Credit is due to the authors of this code and its inclusion here is not a claim of its originality by this group.
